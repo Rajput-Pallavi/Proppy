@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(93, 89, 89);
+  color: white;
+}
+
+#toggleBtn {                                              /* Toggle Button*/
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  padding: 10px;
+  background-color: #575151;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sidebar {                                                      /*Sidebar */     
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 260px;
+  height: 100vh;
+  background-color: #1e1e1e;
+  padding-top: 50px;
+  overflow-y: auto;
+  transition: transform 0.3s ease;
+}
+
+.sidebar-header {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  padding: 12px 20px;
+  border-bottom: 1px solid #2c2c2c;
+  cursor: pointer;
+}
+
+.sidebar-menu li:hover {
+  background-color: #333;
+}
+
+.user-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #1e1e1e;
+  padding: 10px 20px;
+  border-top: 1px solid #333;
+}
+
+.user-footer .user {
+  font-weight: bold;
+}
+
+.user-footer .status {
+  font-size: 12px;
+  color: #ccc;
+}
+
+select {
+  background-color: #181616;
+  color: aliceblue;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav {                                            /*Background*/
+
+  height: 10vh;
+  width: 210px;
+  background-color: #0c0f12;
+  padding-top: 50px;
+}
+
+.class-select {
+  margin: 10px;
+  padding: 15px;
+  padding-right: 120px;
+}
+
+.box1 {                                              /*words on search bar*/
+  margin-top: 200px;
+  margin-left: 295px;
+  padding: 50px;
+
+}
+
+h3 {                                                     /*font of text*/
+  font-size: 3rem;
+  padding-left: 300px;
+  color: #434040;
+}
+
+.search {                                                /* this the search bar*/
+  display: grid;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 680px;
+  padding-left: 260px;
+}
+
+.search-box {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 2px solid #333;
+  border-radius: 25px;
+  width: 400px;
+  outline: none;
+}
+
+.search-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #100f0f;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #555;
+}
